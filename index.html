@@ -12,6 +12,14 @@
     <!-- CSS -->
     <link rel="stylesheet" href="Assets/css/style.css" type="text/css"/>
     <title>Destination Donegal Town</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_mbN8jbI1AxItdGWnmIM8d");
+    })();
+</script>
 </head>
 <body>
 <header>
@@ -121,7 +129,36 @@
     <!--/.Carousel Wrapper-->
 
   </div>
-</section>   
+</section>
+
+<!--Contact Us-->
+
+<section class="section-form">
+<form class="signup-form" onsubmit="return sendMail(this);">
+
+<h2>Please complete following details</h2>
+       
+          <label for="fname">First Name</label> 
+          <input class="text-input" type="text" name="fname" id="fname" required="fname">
+          <label for="lname">Last Name</label>
+          <input class="text-input" type="text" name="lname" id="lname" required="lname">
+          <label for="number">Mobile Number</label> 
+          <input class="text-input" type="tel" name="number" id="number" required="number">
+          <label for="email">Email Address</label> 
+          <input class="text-input" type="email" name="email" id="email" required="email"> 
+          <input type="radio" name="Reply-by" value="phone" required="phone"> Reply by phone<br>
+          <input type="radio" name="Reply-by" value="email" required="email"> Reply by email<br><br>
+          <label for="query">Enter query here</label>
+          <input class="form-control" type="text" name="query" maxlength="1000" id="query" required="query">
+            <input class="join-button" type="Reset" value="Clear">
+       <input class="join-button" type="submit" value="Submit">
+     <p>We will reply within 24 hours by phone or email.</p>
+     </form>
+
+<!--/.Contact Us-->
+
+<!--Footer-->
+
 <footer class="social-links">
             <a target="_blank" href="https://www.facebook.com/Discover.Donegal/">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -137,6 +174,8 @@
             </a>
 </footer>
 
+<!--/.Footer-->
+
 <!--Scripts-->
 <!--JQuery script-->
 <script src="https://code.jquery.com/jquery-3.4.1.js"
@@ -151,5 +190,6 @@ crossorigin="anonymous"></script>
 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
 crossorigin="anonymous"></script>
 <script src="Assets/js/script.js"></script>
+<script src="Assets/js/sendEmail.js"></script>
  </body>
 </html>
