@@ -34,7 +34,7 @@ body{
 /* Contact Us Styling */
 
 .section-form{
-    height: 1000px;
+    height: 700px;
 }
 .signup-form{
     margin-top: 100px;
@@ -89,3 +89,6 @@ border-color: green;
   background-color: #fafafa;
   color:green;
 }
+
+/* Google Map Styling */
+div#map {min-height: 360px;}
