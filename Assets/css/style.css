@@ -5,9 +5,94 @@ body{
     font-family: 'Calligraffitti', sans-serif;
 }
 
+.paragraph-style{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
 .image-carousel{
-    height: 250px;
+    height: auto;
     width: 100%;
+    padding-top: 125px;
+    border-radius: 10px;
+    }
+
+/* Line Break Styling */
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: inset;
+  border-width: 3px;
+  border-color: green;
+} 
+
+/* About-heading read more/less button Styling */
+#more {display: none;}
+
+/* Style the tab */
+
+.tab-container {
+    text-align: center;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin: auto;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.5s;
+  font-size: 17px;
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 3s;
+  animation: fadeEffect 3s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 /* Social Links on Footer Styling */
@@ -37,28 +122,28 @@ body{
     height: 700px;
 }
 .signup-form{
-    margin-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color: #fff;
     background-color: rgba(14, 196, 74, 0.6);
     max-width: 400px;
-    position: absolute;
-    padding: 30px 30px 30px 30px;
+    
+    padding: 15px 15px 15px 15px;
     left: 2%;
     border-radius: 20px;
   }
   .signup-form h2{
     color: #fafafa;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 .text-input{
   background-color: transparent;
   color: #fafafa;
   width: 100%;
   height: 25px;
-  margin: 5px 0 20px 0;
   border: solid 1px #fafafa;
   border-radius: 2px;
+  margin-bottom: 10px;
 }
 .text-input:hover{
 border-color: green;
@@ -67,8 +152,8 @@ border-color: green;
   background-color: transparent;
   color: #fafafa;
   width: 100%;
-  height: 75px;
-  margin: 5px 0 20px 0;
+ 
+  margin: 5px 0 5px 0;
   border: solid 1px #fafafa;
   border-radius: 2px;
 }
@@ -76,9 +161,9 @@ border-color: green;
 border-color: green;
   }
   .join-button{
-  margin-top: 20px;
+  margin-top: 5px;
   border-radius: 2px;
-  padding: 15px 32px 15px 32px;
+  padding: 5px 5px 5px 5px;
   text-align: center;
   font-size: 100%;
   background-color: green;
@@ -88,6 +173,10 @@ border-color: green;
 .join-button:hover{
   background-color: #fafafa;
   color:green;
+}
+
+label{
+    margin-bottom: 1px;
 }
 
 /* Google Map Styling */

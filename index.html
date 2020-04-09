@@ -8,11 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Font Awesome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="Assets/css/style.css" type="text/css"/>
     <title>Destination Donegal Town</title>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <!-- EmailJS -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -38,21 +37,21 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav text-uppercase ml-auto text-center">
                     <li class="navbar_list mr-2">
-                        <a class="nav-link" href="index.html#about">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" 
                             aria-haspopup="true" aria-expanded="false">Things to do</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item text-center" href="#">Accomadation</a>
-                                <a class="dropdown-item text-center" href="#">Kids Activities</a> 
-                                <a class="dropdown-item text-center" href="#">Family Activities</a>  
-                                <a class="dropdown-item text-center" href="#">Nightlife</a>  
-                                <a class="dropdown-item text-center" href="#">Places to Eat</a>                          
+                                <a class="dropdown-item text-center" href="#things-to-do">Accomadation</a>
+                                <a class="dropdown-item text-center" href="#things-to-do">Kids Activities</a> 
+                                <a class="dropdown-item text-center" href="#things-to-do">Family Activities</a>  
+                                <a class="dropdown-item text-center" href="#things-to-do">Nightlife</a>  
+                                <a class="dropdown-item text-center" href="#things-to-do">Places to Eat</a>                          
                             </div>
                     </li>
                     <li class="navbar_list mr-2">
-                        <a class="nav-link" href="index.html#contact_us">Contact Us</a>
+                        <a class="nav-link" href="#contact-us">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -61,8 +60,6 @@
 
 <section>
  <div class="container my-4">
-
-    <h2 class="my-5 h2">With captions</h2>
 
     <!--Carousel Wrapper-->
     <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
@@ -78,7 +75,7 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="view">
-            <img class="d-block w-100 image-carousel" src="Assets/images/donegal_castle2.jpg" alt="Donegal Town Castle">
+            <img class="d-block w-80 image-carousel" src="Assets/images/donegal_castle2.jpg" alt="Donegal Town Castle">
             <div class="mask rgba-black-light"></div>
           </div>
           <div class="carousel-caption">
@@ -88,7 +85,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100 image-carousel" src="Assets/images/mccaffertys_bar.jpg" alt="McCaffertys Bar">
+            <img class="d-block w-80 image-carousel" src="Assets/images/mccaffertys_bar.jpg" alt="McCaffertys Bar">
             <div class="mask rgba-black-strong"></div>
           </div>
           <div class="carousel-caption">
@@ -98,7 +95,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100 image-carousel" src="Assets/images/the.diamond2.jpg" alt="The Diamond, Donegal Town">
+            <img class="d-block w-80 image-carousel" src="Assets/images/the.diamond2.jpg" alt="The Diamond, Donegal Town">
             <div class="mask rgba-black-strong"></div>
           </div>
           <div class="carousel-caption">
@@ -108,7 +105,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100 image-carousel" src="Assets/images/the_diamond.jpg" alt="The Diamond at Christmas">
+            <img class="d-block w-80 image-carousel" src="Assets/images/the_diamond.jpg" alt="The Diamond at Christmas">
             <div class="mask rgba-black-slight"></div>
           </div>
           <div class="carousel-caption">
@@ -131,20 +128,113 @@
     <!--/.Carousel Wrapper-->
 
   </div>
+  </section>
+
+<hr>
+
+<!-- About Donegal Town Section -->
+<section id="about">
+<h1 class="heading-about text-center">About Donegal Town</h1>
+<p class="paragraph-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+</section>
+<!-- /.About Donegal Town Section -->
+
+<hr>
+
+<!-- Thing To Do Section -->
+<section id="things-to-do">
+<div class="tab-container">
+    <h1 class="heading-about text-center">Things To Do</h1>
+<div class="tab">
+  <button class="tablinks" onclick="openThingsToDo(event, 'Accomadation')">Accomadation</button>
+  <button class="tablinks" onclick="openThingsToDo(event, 'Kids-Activities')">Kids Activities</button>
+  <button class="tablinks" onclick="openThingsToDo(event, 'Family-Activities')">Family Activities</button>
+    <button class="tablinks" onclick="openThingsToDo(event, 'Nightlife')">Nightlife</button>
+    <button class="tablinks" onclick="openThingsToDo(event, 'Places-To-Eat')">Places To Eat</button>
+</div>
+
+<div id="Accomadation" class="tabcontent">
+  <h3>Accomadation</h3>
+  <p class="paragraph-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus saepe ex dolores molestiae ab ratione amet non, esse tempora sit voluptatum accusantium ad laudantium modi! Molestias facilis repellat voluptates alias?</p>
+<span onclick="this.parentElement.style.display='none'">x</span>
+</div>
+
+<div id="Kids-Activities" class="tabcontent">
+  <h3>Kids Activities</h3>
+  <p class="paragraph-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero facere maxime minima repudiandae optio qui ex vitae pariatur provident expedita nulla excepturi cupiditate perferendis, temporibus officiis reprehenderit voluptatum debitis cum.</p> 
+</div>
+
+<div id="Family-Activities" class="tabcontent">
+  <h3>Family Activities</h3>
+  <p class="paragraph-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque adipisci fugiat cupiditate alias maiores, sed quo impedit amet, atque ea provident! Quis aliquid vero temporibus consequuntur, delectus veniam. Cumque, ullam!</p>
+</div>
+
+<div id="Nightlife" class="tabcontent">
+  <h3>Nightlife</h3>
+  <p class="paragraph-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque adipisci fugiat cupiditate alias maiores, sed quo impedit amet, atque ea provident! Quis aliquid vero temporibus consequuntur, delectus veniam. Cumque, ullam!</p>
+</div>
+
+<div id="Places-To-Eat" class="tabcontent">
+  <h3>Places To Eat</h3>
+  <p class="paragraph-style">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque adipisci fugiat cupiditate alias maiores, sed quo impedit amet, atque ea provident! Quis aliquid vero temporibus consequuntur, delectus veniam. Cumque, ullam!</p>
+</div>
+
+</div>
 </section>
 
+<!-- /.Thing To Do Section -->
+
+<hr>
+
+<!-- Google Maps Section -->
 <section>
 <div id="map">
 </div>
 </section>
+<!-- /.Google Maps Section -->
+<h1 class="heading-about text-center">Google Maps</h1>
+<hr>
 
-<!--Contact Us-->
-
-<section class="section-form">
-<form class="signup-form" onsubmit="return sendMail(this);">
-
-<h2>Please complete following details</h2>
-       
+<!-- Contact Us -->
+<section id="contact-us">
+<h1 class="heading-about text-center">Contact Us</h1>
+        <div class="container section-container">
+            
+            <div class="row">
+                <div class="col-sm-12 col-md-6 contact-details">
+                    <div class="row contact-address">
+                        <div class="col-1">
+                            <i class="fas fa-address-book contact-icon"></i>
+                        </div>
+                        <div class="col-11">
+                                1 Anywhere St<br>
+                                Donegal Town<br>
+                                Co Donegal<br>
+                                Ireland
+                        </div>
+                    </div>
+                    <div class="row contact-address">
+                        <div class="col-1">
+                            <i class="fas fa-phone-alt contact-icon"></i>
+                        </div>
+                        <div class="col-11">
+                            074 9700000
+                        </div>
+                    </div>
+                    <div class="row contact-address">
+                        <div class="col-1">
+                            <i class="fas fa-at contact-icon"></i>
+                        </div>
+                        <div class="col-11">
+                            destination@donegaltown.ie
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 section-form">
+                    <h4 class+"text-center">Send us a comment, query or suggestion below</h4>
+                    <form class="signup-form" onsubmit="return sendMail(this);">
           <label for="fname">First Name</label> 
           <input class="text-input" type="text" name="fname" id="fname" required="fname">
           <label for="lname">Last Name</label>
@@ -156,34 +246,42 @@
           <input type="radio" name="Reply-by" value="phone" required="phone"> Reply by phone<br>
           <input type="radio" name="Reply-by" value="email" required="email"> Reply by email<br><br>
           <label for="query">Enter query here</label>
-          <input class="form-control" type="text" name="query" maxlength="1000" id="query" required="query">
+          <textarea class="form-control" rows="3" id="message" name="query" required></textarea>
             <input class="join-button" type="Reset" value="Clear">
        <input class="join-button" type="submit" value="Submit">
-     <p>We will reply within 24 hours by phone or email.</p>
+    
      </form>
+                </div>
+            </div>  
+        </div>
+    </section>
+<!-- /.Contact Us -->
 
-<!--/.Contact Us-->
-
-<!--Footer-->
+<!-- Footer -->
 
 <footer class="social-links">
+    <p class="paragraph-style">Please follow us for up to date events</p>
             <a target="_blank" href="https://www.facebook.com/Discover.Donegal/">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fab fa-facebook" aria-hidden="true"></i>
                 <span class="sr-only">Facebook</span>
             </a>
             <a target="_blank" href="https://twitter.com/govisitdonegal?lang=en">
-                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fab fa-twitter" aria-hidden="true"></i>
                 <span class="sr-only">Twitter</span>
             </a>
             <a target="_blank" href="https://www.instagram.com/discoverdonegal_/?hl=en">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
                 <span class="sr-only">Instagram</span>
+            </a>
+           <a target="_blank" href="https://www.youtube.com/channel/UCFRX_NFWLIgWxrufNeF8kLA">
+                <i class="fab fa-youtube-square" aria-hidden="true"></i>
+                <span class="sr-only">You Tube</span>
             </a>
 </footer>
 
-<!--/.Footer-->
+<!-- /.Footer -->
 
-<!--Scripts-->
+<!-- Script s-->
 <!--JQuery script-->
 <script src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
@@ -203,6 +301,6 @@ crossorigin="anonymous"></script>
     <!--Google Maps Clusters script-->
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXuN8ppa1ME7uAPN-oDmcQGgxhuCMgyIA&callback=initMap"></script>
-    
+<!-- /.Scripts -->
  </body>
 </html>
