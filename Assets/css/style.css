@@ -95,7 +95,23 @@ hr {
   to {opacity: 1;}
 }
 
+/* Background photo on contact us Styling */
+.fixed-bg {
+  background: linear-gradient( rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10) ), url('../images/Donegal_town.jpg') fixed no-repeat;
+     -webkit-background-size: cover;
+     background-attachment: fixed;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+     width: 100%;
+  height: auto;    
+}
+
 /* Social Links on Footer Styling */
+
+#social-links-heading{
+    word-spacing: 1px;
+}
 
 .social-links{
     font-size: 30pt;
@@ -120,6 +136,7 @@ hr {
 
 .section-form{
     height: 700px;
+    font-family: 'Raleway', sans-serif;
 }
 .signup-form{
     margin-top: 20px;
