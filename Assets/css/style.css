@@ -23,14 +23,13 @@ body{
 /* Line Break Styling */
 hr { 
   display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
   margin-left: 15%;
   margin-right: 15%;
   border-style: inset;
   border-width: 3px;
   border-color: green;
-  padding-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 } 
 
 .tab-container{
@@ -166,7 +165,7 @@ hr {
 /* Contact Us Styling */
 
 .section-form{
-    height: 700px;
+    height: 530px;
     font-family: 'Raleway', sans-serif;
 }
 .signup-form{
@@ -174,7 +173,7 @@ hr {
     margin-bottom: 20px;
     color: #fff;
     background-color: rgba(14, 196, 74, 0.6);
-    max-width: 400px;
+    max-width: 350px;
     
     padding: 15px 15px 15px 15px;
     left: 2%;
