@@ -11,6 +11,8 @@ body{
     letter-spacing: 1px;
     padding-left: 5px;
     padding-right: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .image-carousel{
@@ -38,7 +40,26 @@ hr {
 }
 
 /* About-heading read more/less button Styling */
-#more {display: none;}
+#more {
+    display: none;
+}
+
+button#myBtn{
+    margin-left: 20px;
+    padding-left: 5px;
+    background-color: green;
+    
+}
+
+/* Style the images in about section */
+.about-photo {
+    float: right;
+    border: 2px solid green;
+    border-radius: 4px;
+    margin: 0px 0px 15px 20px;
+    height: 150px;
+    width: 300px;
+}
 
 /* Style the tab */
 
@@ -69,6 +90,8 @@ hr {
   list-style-type: none;
   text-align: center;
   position: relative;
+  font-family: 'Raleway', sans-serif;
+  background-color: green;
 
 
 }
