@@ -5,6 +5,41 @@ body{
     font-family: 'Calligraffitti', sans-serif;
 }
 
+/* Scroll to top button  */
+#button {
+  display: inline-block;
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+.scroll-top-icon{
+font-size: 33px;
+padding-top: 9px;
+
+}
+#button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+}
+#button:active {
+  background-color: greenyellow;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 .paragraph-style{
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
@@ -186,25 +221,69 @@ button#myBtn{
 }
 
 /* Contact Us Styling */
+.heading-contact-us{
+    color: #fff;
+    background-color: rgba(14, 196, 74, 0.6);
+    padding: 15px;
+    border-radius: 20px;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.section-contact-details{
+    height: 530px;
+    font-family: 'Raleway', sans-serif;
+}
 
 .section-form{
     height: 530px;
     font-family: 'Raleway', sans-serif;
 }
-.signup-form{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+div.row{
+    margin: 0px;
+}
+.contact-details{
+    margin: 15px;
     color: #fff;
     background-color: rgba(14, 196, 74, 0.6);
-    max-width: 350px;
-    
-    padding: 15px 15px 15px 15px;
-    left: 2%;
+    max-width: 340px;
+    padding: 15px;
     border-radius: 20px;
-  }
-  .signup-form h2{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+   }
+
+.contact-icon{
+    font-size: 30px;
+    text-align: center;
+    padding: 43px 0px 10px 0px;
+}
+
+.contact-address{
+    text-align: center;
+}
+
+.signup-form{
+    margin: 15px;
+    color: #fff;
+    background-color: rgba(14, 196, 74, 0.6);
+    max-width: 340px;
+    padding: 15px;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    }
+
+.signup-form h2{
     color: #fafafa;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
   }
 .text-input{
   background-color: transparent;
@@ -223,7 +302,7 @@ border-color: green;
   color: #fafafa;
   width: 100%;
  
-  margin: 5px 0 5px 0;
+  margin: 3px 0 3px 0;
   border: solid 1px #fafafa;
   border-radius: 2px;
 }
@@ -231,9 +310,9 @@ border-color: green;
 border-color: green;
   }
   .join-button{
-  margin-top: 5px;
+  margin-top: 3px;
   border-radius: 2px;
-  padding: 5px 5px 5px 5px;
+  padding: 3px 3px 3px 3px;
   text-align: center;
   font-size: 100%;
   background-color: green;
