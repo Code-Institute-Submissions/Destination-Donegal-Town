@@ -51,10 +51,9 @@ padding-top: 9px;
 }
 
 .image-carousel{
-    height: auto;
+    height: 600px;
     width: 100%;
-    padding-top: 125px;
-    border-radius: 10px;
+    padding-top: 50px;
     }
 
 /* Line Break Styling */
@@ -329,4 +328,11 @@ label{
 }
 
 /* Google Map Styling */
-div#map {min-height: 360px;}
+div#map {
+    max-width: 100%;
+    margin: 20px;
+    height: 350px;
+    border: 2px solid green;
+    border-radius: 10px;
+   
+}

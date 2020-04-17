@@ -19,13 +19,13 @@
         emailjs.init("user_mbN8jbI1AxItdGWnmIM8d");
     })();
 </script>
-    <script scr="./Assets/js/maps.js"></script>
+    <script scr="Assets/js/maps.js"></script>
 
 </head>
 <body>
 <a id="button"><i class="fas fa-arrow-up scroll-top-icon"></i></a>
 <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-success">
             
             <div class="navbar-brand">
                 <a href="index.html"><img class="logo" src="Assets/images/Destination_Donegal_Town_Logo (2).png" alt="Destination Donegal Town"></a>
@@ -76,7 +76,7 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="view">
-            <img class="d-block w-80 image-carousel" src="Assets/images/donegal_castle2.jpg" alt="Donegal Town Castle">
+            <img class="d-block mx-auto w-80 image-carousel" src="Assets/images/donegal_castle2.jpg" alt="Donegal Town Castle">
             <div class="mask rgba-black-light"></div>
           </div>
           <div class="carousel-caption">
@@ -86,7 +86,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-80 image-carousel" src="Assets/images/mccaffertys_bar.jpg" alt="McCaffertys Bar">
+            <img class="d-block mx-auto w-80 image-carousel" src="Assets/images/mccaffertys_bar.jpg" alt="McCaffertys Bar">
             <div class="mask rgba-black-strong"></div>
           </div>
           <div class="carousel-caption">
@@ -96,7 +96,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-80 image-carousel" src="Assets/images/the.diamond2.jpg" alt="The Diamond, Donegal Town">
+            <img class="d-block mx-auto w-80 image-carousel" src="Assets/images/the.diamond2.jpg" alt="The Diamond, Donegal Town">
             <div class="mask rgba-black-strong"></div>
           </div>
           <div class="carousel-caption">
@@ -106,7 +106,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-80 image-carousel" src="Assets/images/the_diamond.jpg" alt="The Diamond at Christmas">
+            <img class="d-block mx-auto w-80 image-carousel" src="Assets/images/the_diamond.jpg" alt="The Diamond at Christmas">
             <div class="mask rgba-black-slight"></div>
           </div>
           <div class="carousel-caption">
@@ -987,10 +987,14 @@ crossorigin="anonymous"></script>
 <script src="Assets/js/script.js"></script>
 <script src="Assets/js/sendEmail.js"></script>
 
-    <script scr="./Assets/js/maps.js"></script>
+    
+    <script src="Assets/js/maps.js"></script>
     <!--Google Maps Clusters script-->
-    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXuN8ppa1ME7uAPN-oDmcQGgxhuCMgyIA&callback=initMap"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXuN8ppa1ME7uAPN-oDmcQGgxhuCMgyIA&callback=initMap"></script>
+ 
+    
 <!-- /.Scripts -->
  </body>
 </html>
+
