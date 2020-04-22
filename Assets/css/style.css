@@ -14,13 +14,14 @@ body{
   text-align: center;
   border-radius: 10px;
   position: fixed;
-  bottom: 20px;
+  bottom: 100px;
   right: 20px;
   transition: background-color .3s, 
     opacity .5s, visibility .5s;
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .scroll-top-icon{
@@ -56,6 +57,15 @@ padding-top: 9px;
     padding-top: 50px;
     }
 
+    /* Responsive image-carousel for phones */
+@media only screen and (max-width : 1000px) {
+    .image-carousel {
+        height: 300px;
+        width: 100%;
+        padding-top: 25px;
+    }
+}
+
 /* Line Break Styling */
 hr { 
   display: block;
@@ -85,7 +95,7 @@ button#myBtn{
     
 }
 
-/* Style the images in about section */
+/* Style the image in about section */
 .about-photo {
     float: right;
     border: 2px solid green;
@@ -94,6 +104,19 @@ button#myBtn{
     height: 150px;
     width: 300px;
 }
+
+/* Responsive image in acout section for phones */
+@media only screen and (max-width : 500px) {
+    .about-photo {
+        display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 2px solid green;
+    border-radius: 4px;
+    }
+}
+
 
 /* Style the tab */
 
@@ -326,6 +349,8 @@ border-color: green;
 label{
     margin-bottom: 1px;
 }
+
+
 
 /* Google Map Styling */
 div#map {
