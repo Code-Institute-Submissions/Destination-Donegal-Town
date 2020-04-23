@@ -5,6 +5,18 @@ body{
     font-family: 'Calligraffitti', sans-serif;
 }
 
+/*Style Nav Bar */
+.navbar-dark .navbar-nav .nav-link {
+    color: #0D0D0D;
+}
+
+.navbar-expand-md {
+    background-color: green;
+}
+.navbar-nav .dropdown-menu {
+    background-color: green;
+}
+
 /* Scroll to top button  */
 #button {
   display: inline-block;
@@ -92,8 +104,9 @@ button#myBtn{
     margin-left: 20px;
     padding-left: 5px;
     background-color: green;
-    
-}
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
 
 /* Style the image in about section */
 .about-photo {
@@ -120,8 +133,12 @@ button#myBtn{
 
 /* Style the tab */
 
+button.tablinks{
+
+}
 .tab-container {
     text-align: center;
+    background-color: white;
 }
 
 .tab {
@@ -149,18 +166,18 @@ button#myBtn{
   position: relative;
   font-family: 'Raleway', sans-serif;
   background-color: green;
-
-
+  border-radius: 10px;
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: greenyellow;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: greenyellow;
 }
 
 /* Style the tab content */
@@ -270,11 +287,12 @@ div.row{
     margin: 0px;
 }
 .contact-details{
-    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
     color: #fff;
     background-color: rgba(14, 196, 74, 0.6);
     max-width: 340px;
-    padding: 15px;
+    padding: 25px;
     border-radius: 20px;
     border-width: 1px;
     border-style: solid;
@@ -292,7 +310,8 @@ div.row{
 }
 
 .signup-form{
-    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
     color: #fff;
     background-color: rgba(14, 196, 74, 0.6);
     max-width: 340px;
