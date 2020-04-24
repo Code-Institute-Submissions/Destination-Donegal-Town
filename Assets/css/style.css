@@ -10,17 +10,21 @@ body{
     color: #0D0D0D;
 }
 
+.navbar{
+    padding: 0px 16px 0px 16px;
+}
+
 .navbar-expand-md {
-    background-color: green;
+    background-color: #718C0F;
 }
 .navbar-nav .dropdown-menu {
-    background-color: green;
+    background-color: #718C0F;
 }
 
 /* Scroll to top button  */
 #button {
   display: inline-block;
-  background-color: green;
+  background-color: #718C0F;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -28,9 +32,7 @@ body{
   position: fixed;
   bottom: 100px;
   right: 20px;
-  transition: background-color .3s, 
-    opacity .5s, visibility .5s;
-  opacity: 0;
+  transition: 0.5s;
   visibility: hidden;
   z-index: 1000;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -43,10 +45,10 @@ padding-top: 9px;
 }
 #button:hover {
   cursor: pointer;
-  background-color: greenyellow;
+  background-color: #D9B811;
 }
 #button:active {
-  background-color: greenyellow;
+  background-color: #718C0F;
 }
 #button.show {
   opacity: 1;
@@ -85,7 +87,7 @@ hr {
   margin-right: 15%;
   border-style: inset;
   border-width: 3px;
-  border-color: green;
+  border-color: #32590B;
   margin-bottom: 30px;
   margin-top: 30px;
 } 
@@ -103,30 +105,45 @@ hr {
 button#myBtn{
     margin-left: 20px;
     padding-left: 5px;
-    background-color: green;
+    background-color: #718C0F;
+    transition: 0.5s;
     border-radius: 10px;
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     }
 
+button#myBtn:hover {
+  cursor: pointer;
+  background-color: #D9B811;
+}
+button#myBtn:active {
+  background-color: #718C0F;
+}
+button#myBtn.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 /* Style the image in about section */
 .about-photo {
     float: right;
-    border: 2px solid green;
+    border: 2px solid #32590B;
     border-radius: 4px;
     margin: 0px 0px 15px 20px;
     height: 150px;
     width: 300px;
+    padding: 5px;
 }
 
-/* Responsive image in acout section for phones */
+/* Responsive image in about section for phones */
 @media only screen and (max-width : 500px) {
     .about-photo {
-        display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  border: 2px solid green;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 2px solid #32590B;
     border-radius: 4px;
+    padding: 5px;
     }
 }
 
@@ -143,41 +160,42 @@ button.tablinks{
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: white;
   display: inline-block;
   position: relative;
   text-align: center;
   margin: auto;
+  padding-bottom: 20px;
 }
 
 /* Style the buttons inside the tab */
 .tab button {
-  background-color: inherit;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: 0.5s;
+  transition: .3s;
+  opacity: .5s;
+  visibility: .5s;
   font-size: 17px;
   display: inline-block;
   list-style-type: none;
   text-align: center;
   position: relative;
   font-family: 'Raleway', sans-serif;
-  background-color: green;
+  background-color: #718C0F;
   border-radius: 10px;
   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: greenyellow;
+  background-color: #32590B;
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: greenyellow;
+  background-color:#D9B811;
 }
 
 /* Style the tab content */
@@ -202,7 +220,7 @@ button.tablinks{
 .responsive{
     width: 100%;
     height: auto;
-    border: 2px solid green;
+    border: 2px solid #32590B;
     border-radius: 4px;
     padding: 5px;
 }
@@ -220,49 +238,33 @@ button.tablinks{
     padding: 10px;
 }
 
-
+/* Google Map Styling */
+div#map {
+    max-width: 100%;
+    margin: 20px 30px 20px 30px;
+    height: 350px;
+    border: 2px solid #32590B;
+    border-radius: 10px;
+    padding: 5px;
+   }
 
 /* Background photo on contact us Styling */
 .fixed-bg {
-  background: linear-gradient( rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10) ), url('../images/Donegal_town.jpg') fixed no-repeat;
-     -webkit-background-size: cover;
-     background-attachment: fixed;
+    background: linear-gradient( rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10) ), url('../images/Donegal_town.jpg') fixed no-repeat;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-     width: 100%;
-  height: auto;    
-}
-
-/* Social Links on Footer Styling */
-
-#social-links-heading{
-    word-spacing: 1px;
-}
-
-.social-links{
-    font-size: 30pt;
-    word-spacing: 15pt;
-    background-color: greenyellow;
     width: 100%;
-    padding-top: 10px;
-    text-align: center;
+    height: auto;    
 }
 
-.social-links a{
-    color: black; 
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.social-links a:hover{
-    color: green;
-    text-decoration: none;
-}
 
 /* Contact Us Styling */
 .heading-contact-us{
     color: #fff;
-    background-color: rgba(14, 196, 74, 0.6);
+    background-color: rgb(113, 140, 15, 0.5);
     padding: 15px;
     border-radius: 20px;
     margin: auto;
@@ -290,7 +292,7 @@ div.row{
     margin-left: auto;
     margin-right: auto;
     color: #fff;
-    background-color: rgba(14, 196, 74, 0.6);
+    background-color: rgb(113, 140, 15, 0.5);
     max-width: 340px;
     padding: 25px;
     border-radius: 20px;
@@ -312,14 +314,14 @@ div.row{
 .signup-form{
     margin-left: auto;
     margin-right: auto;
-    color: #fff;
-    background-color: rgba(14, 196, 74, 0.6);
+    color: #fafafa;
+    background-color: rgb(113, 140, 15, 0.5);
     max-width: 340px;
     padding: 15px;
     border-radius: 20px;
     border-width: 1px;
     border-style: solid;
-    border-color: #fff;
+    border-color: #fafafa;
     }
 
 .signup-form h2{
@@ -336,7 +338,7 @@ div.row{
   margin-bottom: 10px;
 }
 .text-input:hover{
-border-color: green;
+border-color: #32590B;
   }
 .form-control{
   background-color: transparent;
@@ -348,35 +350,49 @@ border-color: green;
   border-radius: 2px;
 }
 .form-control:hover{
-border-color: green;
+border-color: #32590B;
   }
+
   .join-button{
   margin-top: 3px;
   border-radius: 2px;
   padding: 3px 3px 3px 3px;
   text-align: center;
   font-size: 100%;
-  background-color: green;
+  background-color: #718C0F;
   color: #fafafa;
   display: inline-block;
 }
 .join-button:hover{
-  background-color: #fafafa;
-  color:green;
+  background-color: #D9B811;
+  color:#fafafa;
 }
 
 label{
     margin-bottom: 1px;
 }
 
+/* Social Links on Footer Styling */
+#social-links-heading{
+    word-spacing: 1px;
+}
 
+.social-links{
+    font-size: 30pt;
+    word-spacing: 15pt;
+    background-color: #718C0F;
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
 
-/* Google Map Styling */
-div#map {
-    max-width: 100%;
-    margin: 20px;
-    height: 350px;
-    border: 2px solid green;
-    border-radius: 10px;
-   
+.social-links a{
+    color: #0D0D0D; 
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+.social-links a:hover{
+    color: #D9B811;
+    text-decoration: none;
 }
