@@ -134,6 +134,15 @@ button#myBtn.show {
     padding: 5px;
 }
 
+/* website links */
+a.website-links {
+    text-decoration: none;
+    color: #718C0F;
+}
+a.website-links:hover {
+  cursor: pointer;
+  color: #D9B811;
+}
 /* Responsive image in about section for phones */
 @media only screen and (max-width : 500px) {
     .about-photo {
