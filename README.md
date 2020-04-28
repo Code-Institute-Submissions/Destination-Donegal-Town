@@ -52,12 +52,11 @@ To deploy to Github pages from its Github repository, the following steps need t
 1. The page will refresh and you must scroll down to the Github pages section again, a message will 
 appear saying "Your site is published at https://gareth1980.github.io/Destination-Donegal-Town/
 ## To run this project locally
-1. Clone this project from GitHub following the steps below:
-2. Open the following link https://github.com/Gareth1980/Destination-Donegal-Town in a new window by pressing right click and then clicking on the "open link in a new tab", that will open my Project GitHub repository.
-3. Under the repository name, click "Clone or download" at the top right.
-4. Copy the clone URL for the repository.
-5. In your local IDE open your terminal and type: "git clone" , and paste the URL you copied in Step 3.
-6. Now you will be able to open the project from your local IDE and see how it works.
+Clone this project from GitHub following the steps below:
+1. Under the repository name, click "Clone or download" at the top right.
+1. Copy the clone URL for the repository.
+1. In your local IDE open your terminal and type: "git clone" , and paste the URL you copied in Step 2.
+1. Now you will be able to open the project from your local IDE and see how it works.
 
 
 
@@ -73,3 +72,5 @@ appear saying "Your site is published at https://gareth1980.github.io/Destinatio
 ## Acknowledgements
 <p>..........</p>
 
+# Disclaimer
+The content and images on this website are for educational purposes only.
