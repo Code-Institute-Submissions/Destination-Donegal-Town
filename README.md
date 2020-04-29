@@ -1,5 +1,5 @@
 # Destination Donegal Town
-<img src="Assets/images/Destination_Donegal_Town_Logo (2).png" alt="Destination Donegal Town" width="350px">
+<img src="Assets/images/Destination_Donegal_Town_Logo.png" alt="Destination Donegal Town" width="350px">
 
 # Contents
 1. <a href="#Demo">Demo</a>
@@ -169,7 +169,7 @@ different budgets. Also when the contact form is completed, add a modal to confi
     * **HTML Formatter** was used to beautify code to keep the code neat and easy to read. It was utilised as Beautify Cmd (Shift + Alt + F) in GitPod distorted the code in GitHub.
 
 <h1 id="Testing">5. Testing</h1>
-<p>............</p>
+<p></p>
 
 <h1 id="Deployment">6. Deployment</h1>
 <h2 id="GitHubPages">GitHub Pages</h2>
@@ -183,10 +183,11 @@ To deploy to Github pages from its Github repository, the following steps need t
 1. Scroll down to the GitHub pages section, second last section
 1. Under Source, change on the drop-down menu from none to Master Branch
 1. The page will refresh and you must scroll down to the Github pages section again, a message will 
-appear saying "Your site is published at https://gareth1980.github.io/Destination-Donegal-Town/
+appear saying "Your site is published at <a target="_blank" href="https://gareth1980.github.io/Destination-Donegal-Town/">https://gareth1980.github.io/Destination-Donegal-Town/</a>
 
 <h2 id="ProjectLocally">To run this project locally</h2>
 Clone this project from GitHub following the steps below:
+
 1. Under the repository name, click "Clone or download" at the top right.
 1. Copy the clone URL for the repository.
 1. In your local IDE open your terminal and type: "git clone" , and paste the URL you copied in Step 2.
