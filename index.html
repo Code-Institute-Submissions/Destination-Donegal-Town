@@ -16,13 +16,12 @@
 	<link rel="stylesheet" href="Assets/css/style.css" type="text/css" />
 	<title>Destination Donegal Town</title>
 	<!-- EmailJS -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
-	<script type="text/javascript">
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+	<script>
 		(function(){
         emailjs.init("user_mbN8jbI1AxItdGWnmIM8d");
     })();
 	</script>
-	<script scr="Assets/js/maps.js"></script>
 
 </head>
 
@@ -139,7 +138,7 @@
 	<!-- About Donegal Town Section -->
 	<section id="about">
 		<h1 class="heading-about text-center">About Donegal Town</h1>
-		<p class="paragraph-style"><img src="Assets/images/About3.jpg" class="about-photo" height="100" width="200">
+		<p class="paragraph-style"><img src="Assets/images/About3.jpg" alt="Donegal Food Festival at DOnegal Pier" class="about-photo" height="100" width="200">
 Donegal Town is the gateway to the Northwest. Donegal Town is the perfect location to explore the wonders of the Northwest. 
 Ideally situated near the mouth of Donegal Bay, Donegal Town boasts a panoramic backdrop provided by the Blue Stack 
 Mountains, a stately castle, a friendly population and an array of hotels and restaurants fit 
@@ -2051,13 +2050,11 @@ Live music, Interactive Street Theatre. Come along and tantalise your taste buds
 								<form class="signup-form" onsubmit="return sendMail(this);">
 									<h4 class="text-center">Send us a comment, query or suggestion below</h4>
 									<label for="fname">First Name</label>
-									<input class="text-input" type="text" name="fname" id="fname" required="fname">
+									<input class="text-input" type="text" name="firstname" id="fname" required="fname">
 									<label for="lname">Last Name</label>
-									<input class="text-input" type="text" name="lname" id="lname" required="lname">
-									<label for="number">Mobile Number</label>
-									<input class="text-input" type="tel" name="number" id="number" required="number">
+									<input class="text-input" type="text" name="lastname" id="lname" required="lname">
 									<label for="email">Email Address</label>
-									<input class="text-input" type="email" name="email" id="email" required="email">
+									<input class="text-input" type="email" name="emailaddress" id="email" required="email">
 									<label for="query">Enter query here</label>
 									<textarea class="form-control" rows="2" id="message" name="query" required></textarea>
 									<input class="join-button" type="Reset" value="Clear">

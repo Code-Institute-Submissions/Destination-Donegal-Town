@@ -149,15 +149,15 @@ different budgets. Also when the contact form is completed, add a modal to confi
 * <a target="_blank" href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap 4.4.1</a>
     * **Bootstrap** was used to assist with the responsiveness and styling of the navbar, carousel and the tabs.
 * <a target="_blank" href="https://fonts.google.com/">Google Fonts</a>
-    * **Google fonts** were used to import the Calligraffitti and Raleway font into the style.css file which is the 2 fonts used in the project.
+    * **Google fonts** were used to import the Calligraffitti and Raleway font into the style.css file which are the 2 fonts used in the project.
 * <a target="_blank" href="https://fontawesome.com/">Font Awesome</a>
-    * **Font Awesome** was used to add icons for UX purposes. Icons specifically used for social icons in footer and contact us sections and for contcat details in the recommendations section..
+    * **Font Awesome** was used to add icons for UX purposes. Icons specifically used for social icons in footer and contact us sections and for the contact details in the recommendations section.
 * <a target="_blank" href="https://jquery.com/">jQuery</a>
     * The project uses **JQuery** to simplify DOM manipulation.
 * <a target="_blank" href="https://developers.google.com/maps/documentation">Google Maps API</a>
     * The project uses the **Google Maps API** to integrate a map into the website.
 * <a target="_blank" href="https://www.emailjs.com/">EmailJS</a>
-    * When contact Us form completed correctly, **EmailJS** will email myself details of the completed contact from and also auto reply to the user.
+    * When the Contact Us form is completed correctly, **EmailJS** will email myself details of the completed contact form and also auto reply to the user.
 * <a target="_blank" href="https://git-scm.com/">Git</a>
     * **Git** was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * <a target="_blank" href="https://www.gitpod.io/">Gitpod</a>
@@ -169,7 +169,13 @@ different budgets. Also when the contact form is completed, add a modal to confi
     * **HTML Formatter** was used to beautify code to keep the code neat and easy to read. It was utilised as Beautify Cmd (Shift + Alt + F) in GitPod distorted the code in GitHub.
 
 <h1 id="Testing">5. Testing</h1>
-<p></p>
+
+
+
+
+
+
+
 
 <h1 id="Deployment">6. Deployment</h1>
 <h2 id="GitHubPages">GitHub Pages</h2>
@@ -189,20 +195,33 @@ appear saying "Your site is published at <a target="_blank" href="https://gareth
 Clone this project from GitHub following the steps below:
 
 1. Under the repository name, click "Clone or download" at the top right.
-1. Copy the clone URL for the repository.
+1. Under "Clone with HTTPS", copy the link <a target="_blank" href="https://github.com/Gareth1980/Destination-Donegal-Town.git">https://github.com/Gareth1980/Destination-Donegal-Town.git</a>
+1. Open Git Bash
 1. In your local IDE open your terminal and type: "git clone" , and paste the URL you copied in Step 2.
 1. Now you will be able to open the project from your local IDE and see how it works.
 
 <h1 id="Credits">7. Credits</h1>
 
 <h2 id="Content">Content</h2>
-<p>All content in the Home Page was written by myself.............</p>
+<p>The content in the About section was written by myself. The content in the top 4 recommendations section
+was partly written by me or taken from the respective business website or facebook page.</p>
 
 <h2 id="Media">Media</h2>
-<p>...............</p>
+<p>The images were taken from the business website or facebook page.</p>
 
 <h2 id="Acknowledgements">Acknowledgements</h2>
-<p>..........</p>
+The 3 main websites I used to help me with the coding in the various sections are:
+
+1. <a target="_blank" href="https://stackoverflow.com/">Stack Overflow Website</a> - 
+guided me with issues putting letters on map markers
+1. <a target="_blank" href="https://www.freakyjolly.com/embed-google-maps-with-multiple-markers-and-infowindows-info-popups-open-on-click-or-mouse-hover/">Freak Jolly Website</a> - guided me with issues putting info windows on map markers
+1. <a target="_blank" href="https://www.w3schools.com//">W3School Website</a> - guided me 
+with the image carousel and read more button
+
+I would like to acknowledge the Code Institute Learning Management System on helping 
+me learn all about HTML, CSS and Javascript. I would also like to thank the team in Tutor Support
+who were always there when I had an issue and lastly to my mentor on advising me on how I can
+improve the website visually and any coding issues I encountered.
 
 <h1 id="Disclaimer">8. Disclaimer</h1>
 The content and images on this website are for educational purposes only.
