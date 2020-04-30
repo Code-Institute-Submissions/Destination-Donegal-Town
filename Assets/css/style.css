@@ -183,9 +183,7 @@ button.tablinks{
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
-  transition: .3s;
-  opacity: .5s;
-  visibility: .5s;
+  transition: 0.5s;
   font-size: 17px;
   display: inline-block;
   list-style-type: none;
@@ -211,7 +209,6 @@ button.tablinks{
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  -webkit-animation: fadeEffect 3s;
   animation: fadeEffect 3s;
 }
 
