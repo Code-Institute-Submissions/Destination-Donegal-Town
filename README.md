@@ -182,22 +182,22 @@ I used validator websites to test the following:
     </a>
 </p>
 
-<p>I tested the responsiveness of the website by using <a target="_blank" href="http://www.responsinator.com/">www.responsinator.com</a>. I also used the 
+<p>I tested the responsiveness of the website on google chrome by using <a target="_blank" href="http://www.responsinator.com/">www.responsinator.com</a>. I also used the 
 the inspect by right clicking over the website and then going into the toggle device toolbar. I selected the most used devices to also test for 
 responsiveness i.e. Galaxy S5, iPhone 5/SE/6/7/8, iPhone 6/7/8 plus, iPhone X, iPad and iPad Pro.</p>
 
 ### Navbar
-All links tested and working correctly on all devices and browsers. 
+All links tested and working correctly. 
 
 ### Image Carousel
 Both left and right arrows working by showing the next image when clicked. Buttons at button of image also working by clicking each 
-of the 4 images. Also next image will show automatically after 4 seconds approximately. ALl working correctly on all devices and browsers.
+of the 4 images. Also next image will show automatically after 4 seconds approximately. ALl working correctly.
 
 ### Read More/Less Button
-Read More/Less button tested and working correctly on all devices and browsers.
+Read More/Less button tested and working correctly..
 
 ### Scroll to top Button
-Scroll to top button working correctly on all devices and browsers.
+Scroll to top button working correctly.
 
 ### Tab
 The Tab working correctly, bringing up the correct subsections each time on all devices and browsers.
@@ -207,11 +207,33 @@ All links for websites and social media in About section, top 4 recommendations 
 on all devices and browsers and opened under a new tab leaving Donegal Town Destination tab open.
 
 ### Google Maps
+Google Maps correctly loaded when website opened with all map markers with the correct letters and when all 
+map markers clicked information window opened. When another map marker clicked, existing information window 
+closed and that one opened.   
 
 ### Contact Us
+Contact Us working correctly. I tried to submit an empty form and verified that an error message about the 
+required fields appears. Tried to submit the form with an invalid email address without an @ and verified 
+that a relevant error message appears. Tried to submit the form with only 1 field correctly entered, then 
+2 fields correctly and then 3 fields correctly entered  and verified that a relevant error message appears
+for the remaining fileds left blank.
 
-###EmailJS
+### EmailJS
+When form fully completed correctly, I have checked that an email will be sent to my email address with all information
+given and also an automatic email will be sent the the email address entered in the form to say "Hi 'fname' Thank you
+for completing the contact form in the Destination Donegal Town website. We will reply to you within 24 hours. 
+Kinds Regards, Destination Donegal Town."
 
+### Browser Compatibility
+. | Appearance | Responsiveness | Comments |
+------------ | ------------- | ------------ | ------------
+Chrome  |Good        | Good | n/a
+Firefox |Good        | Good | n/a       
+Safari  |Good        | Good | n/a      
+IE 11   |Poor        | Good | background colour on contact us boxes not working       
+IE 10   |Poor        | Good | background colour on contact us boxes and google map not working
+IE 9 or below |Poor  | Good | background colour on contact us boxes and google map not working. Links in nav bar not showing
+     
 
 
 

@@ -395,7 +395,7 @@ label{
 .social-links a{
     color: #0D0D0D; 
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     transition: 0.5s;
 }
 .social-links a:hover{
