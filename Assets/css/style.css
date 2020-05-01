@@ -7,7 +7,14 @@ body{
 
 /*Style Nav Bar */
 .navbar-dark .navbar-nav .nav-link {
-    color: #0D0D0D;
+    color: #fafafa;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover{
+     background-color: #D9B811;
+    border-radius: 15px;
+    transition: 0.5s;
 }
 
 .navbar{
@@ -19,6 +26,24 @@ body{
 }
 .navbar-nav .dropdown-menu {
     background-color: #718C0F;
+}
+
+.dropdown-item {
+    color: #fafafa;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.dropdown-item:hover {
+    color: #fafafa;
+    text-decoration: none;
+    background-color: #D9B811;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.dropdown-menu{
+    border: none;
 }
 
 /* Style Scroll to top button */
@@ -53,6 +78,13 @@ padding-top: 9px;
 #button.show {
   opacity: 1;
   visibility: visible;
+}
+
+/* Style remove scroll to top for mobile/ipad devices */
+@media only screen and (max-width : 1366px) {
+    a#button{
+        display: none;
+    }
 }
 
 /* Style About section paragraphs */
@@ -99,13 +131,16 @@ hr {
     display: none;
 }
 
+
 button#myBtn{
     margin-left: 20px;
     padding-left: 5px;
     background-color: #718C0F;
+    color: #fafafa;
     transition: 0.5s;
     border-radius: 10px;
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    font-family: 'Raleway', sans-serif;
     }
 
 button#myBtn:hover {
@@ -184,6 +219,7 @@ a.website-links:hover {
   text-align: center;
   position: relative;
   font-family: 'Raleway', sans-serif;
+  color: #fafafa;
   background-color: #718C0F;
   border-radius: 10px;
   box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -381,14 +417,15 @@ label{
     word-spacing: 15pt;
     background-color: #718C0F;
     width: 100%;
+    color: #fafafa;
     padding-top: 10px;
     text-align: center;
 }
 
 .social-links a{
-    color: #0D0D0D; 
-    margin-left: 10px;
-    margin-right: 20px;
+    color: #fafafa;
+    margin-left: 5px;
+    margin-right: 5px;
     transition: 0.5s;
 }
 .social-links a:hover{
