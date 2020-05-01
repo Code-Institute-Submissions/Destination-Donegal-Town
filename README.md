@@ -169,6 +169,21 @@ different budgets. Also when the contact form is completed, add a modal to confi
     * **HTML Formatter** was used to beautify code to keep the code neat and easy to read. It was utilised as Beautify Cmd (Shift + Alt + F) in GitPod distorted the code in GitHub.
 
 <h1 id="Testing">5. Testing</h1>
+
+### UX Stories
+**Joan and Mary from London** wanted the following:<br>
+Activities for kids - included<br>
+directions on google maps - included
+ 
+**Simon and Joan from Cork** wanted the following:<br>
+Top recommendations for hotels, restaurants and bars from locals - included
+
+**Peter from Dublin** wnated the following:<br>
+One page website easy to navigate - included<br>
+budget activities - included<br>
+Pubs with live music - included
+
+### Validation
 I used validator websites to test the following:
 
 * HTML - <a target="_blank" href="https://validator.w3.org/">W3C Html Checker</a> - 32 minor errors found - all corrected

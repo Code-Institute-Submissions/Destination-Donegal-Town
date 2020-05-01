@@ -21,7 +21,7 @@ body{
     background-color: #718C0F;
 }
 
-/* Scroll to top button  */
+/* Style Scroll to top button */
 #button {
   display: inline-block;
   background-color: #718C0F;
@@ -55,6 +55,7 @@ padding-top: 9px;
   visibility: visible;
 }
 
+/* Style About section paragraphs */
 .paragraph-style{
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
@@ -65,13 +66,14 @@ padding-top: 9px;
     margin-right: 20px;
 }
 
+/* Style images in carousel */
 .image-carousel{
     height: 600px;
     width: 100%;
     padding-top: 50px;
     }
 
-    /* Responsive image-carousel for phones */
+/* Responsive image-carousel for phones */
 @media only screen and (max-width : 1000px) {
     .image-carousel {
         height: 300px;
@@ -80,7 +82,7 @@ padding-top: 9px;
     }
 }
 
-/* Line Break Styling */
+/* Style Line Break */
 hr { 
   display: block;
   margin-left: 15%;
@@ -91,11 +93,6 @@ hr {
   margin-bottom: 30px;
   margin-top: 30px;
 } 
-
-.tab-container{
-    padding: 0px;
-    margin: 0px;
-}
 
 /* About-heading read more/less button Styling */
 #more {
@@ -134,7 +131,7 @@ button#myBtn.show {
     padding: 5px;
 }
 
-/* website links */
+/* Style website links */
 a.website-links {
     text-decoration: none;
     color: #718C0F;
@@ -143,7 +140,7 @@ a.website-links:hover {
   cursor: pointer;
   color: #D9B811;
 }
-/* Responsive image in about section for phones */
+/* Style Responsive image in about section for phones */
 @media only screen and (max-width : 500px) {
     .about-photo {
     display: block;
@@ -156,15 +153,12 @@ a.website-links:hover {
     }
 }
 
-
 /* Style the tab */
-
-button.tablinks{
-
-}
 .tab-container {
     text-align: center;
     background-color: white;
+    padding: 0px;
+    margin: 0px;
 }
 
 .tab {
@@ -266,7 +260,6 @@ div#map {
     height: auto;    
 }
 
-
 /* Contact Us Styling */
 .heading-contact-us{
     color: #fff;
@@ -282,7 +275,7 @@ div#map {
 }
 
 .section-contact-details{
-    height: 530px;
+    height: 440px;
     font-family: 'Raleway', sans-serif;
 }
 
