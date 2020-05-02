@@ -76,8 +76,8 @@ with Calligraffitti font as per the google font website.</p>
 <h2 id="Wireframes">Wireframes</h2>
 
 <h3>Wireframes for desktop devices</h3> 
-<img src="Wireframes/WireframesLS1.jpg" alt="WireframesLS1" width="350px">
-<img src="Wireframes/WireframesLS2.jpg" alt="WireframesLS2" width="410px">
+<img src="wireframes/wireframesLS1.jpg" alt="WireframesLS1" width="350px">
+<img src="wireframes/wireframesLS2.jpg" alt="WireframesLS2" width="410px">
 
 <h3>Wireframes for tablet devices</h3> 
 <img src="wireframes/wireframesMS1.jpg" alt="WireframesMS1" width="350px">
