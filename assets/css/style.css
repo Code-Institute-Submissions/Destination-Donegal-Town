@@ -1,29 +1,32 @@
 /* To amend font using google fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway:wght@500&display=swap');
 
-body{
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Raleway:wght@500&display=swap');
+body {
     font-family: 'Calligraffitti', sans-serif;
 }
 
+
 /*Style Nav Bar */
+
 .navbar-dark .navbar-nav .nav-link {
     color: #fafafa;
     font-family: 'Raleway', sans-serif;
 }
 
-.nav-link:hover{
-     background-color: #D9B811;
+.nav-link:hover {
+    background-color: #D9B811;
     border-radius: 15px;
     transition: 0.5s;
 }
 
-.navbar{
+.navbar {
     padding: 0px 16px 0px 16px;
 }
 
 .navbar-expand-md {
     background-color: #718C0F;
 }
+
 .navbar-nav .dropdown-menu {
     background-color: #718C0F;
 }
@@ -31,7 +34,6 @@ body{
 .dropdown-item {
     color: #fafafa;
     font-family: 'Raleway', sans-serif;
-
 }
 
 .dropdown-item:hover {
@@ -42,53 +44,52 @@ body{
     transition: 0.5s;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     border: none;
 }
 
+
 /* Style Scroll to top button */
+
 #button {
-  display: inline-block;
-  background-color: #718C0F;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 10px;
-  position: fixed;
-  bottom: 100px;
-  right: 20px;
-  transition: 0.5s;
-  visibility: hidden;
-  z-index: 1000;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    background-color: #718C0F;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    transition: 0.5s;
+    visibility: hidden;
+    z-index: 1000;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.scroll-top-icon{
-font-size: 33px;
-padding-top: 9px;
-
+.scroll-top-icon {
+    font-size: 33px;
+    padding-top: 9px;
 }
+
 #button:hover {
-  cursor: pointer;
-  background-color: #D9B811;
-}
-#button:active {
-  background-color: #718C0F;
-}
-#button.show {
-  opacity: 1;
-  visibility: visible;
+    cursor: pointer;
+    background-color: #D9B811;
 }
 
-/* Style remove scroll to top for mobile/ipad devices */
-@media only screen and (max-width : 1366px) {
-    a#button{
-        display: none;
-    }
+#button:active {
+    background-color: #718C0F;
 }
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
 
 /* Style About section paragraphs */
-.paragraph-style{
+
+.paragraph-style {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     letter-spacing: 1px;
@@ -98,15 +99,19 @@ padding-top: 9px;
     margin-right: 20px;
 }
 
+
 /* Style images in carousel */
-.image-carousel{
+
+.image-carousel {
     height: 600px;
     width: 100%;
     padding-top: 50px;
-    }
+}
+
 
 /* Responsive image-carousel for phones */
-@media only screen and (max-width : 1000px) {
+
+@media only screen and (max-width: 1000px) {
     .image-carousel {
         height: 300px;
         width: 100%;
@@ -114,48 +119,55 @@ padding-top: 9px;
     }
 }
 
+
 /* Style Line Break */
-hr { 
-  display: block;
-  margin-left: 15%;
-  margin-right: 15%;
-  border-style: inset;
-  border-width: 3px;
-  border-color: #32590B;
-  margin-bottom: 30px;
-  margin-top: 30px;
-} 
+
+hr {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: inset;
+    border-width: 3px;
+    border-color: #32590B;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
 
 /* About-heading read more/less button Styling */
+
 #more {
     display: none;
 }
 
-
-button#myBtn{
+button#myBtn {
     margin-left: 20px;
     padding-left: 5px;
     background-color: #718C0F;
     color: #fafafa;
     transition: 0.5s;
     border-radius: 10px;
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-family: 'Raleway', sans-serif;
-    }
+}
 
 button#myBtn:hover {
-  cursor: pointer;
-  background-color: #D9B811;
-}
-button#myBtn:active {
-  background-color: #718C0F;
-}
-button#myBtn.show {
-  opacity: 1;
-  visibility: visible;
+    cursor: pointer;
+    background-color: #D9B811;
 }
 
+button#myBtn:active {
+    background-color: #718C0F;
+}
+
+button#myBtn.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 /* Style the image in about section */
+
 .about-photo {
     float: right;
     border: 2px solid #32590B;
@@ -166,29 +178,37 @@ button#myBtn.show {
     padding: 5px;
 }
 
+
 /* Style website links */
+
 a.website-links {
     text-decoration: none;
     color: #718C0F;
 }
+
 a.website-links:hover {
-  cursor: pointer;
-  color: #D9B811;
+    cursor: pointer;
+    color: #D9B811;
 }
+
+
 /* Style Responsive image in about section for phones */
-@media only screen and (max-width : 500px) {
+
+@media only screen and (max-width: 500px) {
     .about-photo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    border: 2px solid #32590B;
-    border-radius: 4px;
-    padding: 5px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border: 2px solid #32590B;
+        border-radius: 4px;
+        padding: 5px;
     }
 }
 
+
 /* Style the tab */
+
 .tab-container {
     text-align: center;
     background-color: white;
@@ -197,63 +217,81 @@ a.website-links:hover {
 }
 
 .tab {
-  overflow: hidden;
-  background-color: white;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  margin: auto;
-  padding-bottom: 20px;
+    overflow: hidden;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
 }
+
 
 /* Style the buttons inside the tab */
+
 .tab button {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.5s;
-  font-size: 17px;
-  display: inline-block;
-  list-style-type: none;
-  text-align: center;
-  position: relative;
-  font-family: 'Raleway', sans-serif;
-  color: #fafafa;
-  background-color: #718C0F;
-  border-radius: 10px;
-  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.5s;
+    font-size: 17px;
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: #fafafa;
+    background-color: #718C0F;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 /* Change background color of buttons on hover */
+
 .tab button:hover {
-  background-color: #32590B;
+    background-color: #32590B;
 }
+
 
 /* Create an active/current tablink class */
+
 .tab button.active {
-  background-color:#D9B811;
+    background-color: #D9B811;
 }
+
 
 /* Style the tab content */
+
 .tabcontent {
-  display: none;
-  padding: 6px 12px;
-  animation: fadeEffect 3s;
+    display: none;
+    padding: 6px 12px;
+    animation: fadeEffect 3s;
 }
 
+
 /* Fade in tabs */
+
 @-webkit-keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-.responsive{
+.responsive {
     width: 100%;
     height: auto;
     border: 2px solid #32590B;
@@ -261,20 +299,23 @@ a.website-links:hover {
     padding: 5px;
 }
 
-.tab-headers{
+.tab-headers {
     text-align: center;
     font-family: 'Calligraffitti', sans-serif;
     font-weight: 500;
 }
 
-.tab-details{
-     font-family: 'Raleway', sans-serif;
+.tab-details {
+    font-family: 'Raleway', sans-serif;
 }
-.tab-section{
+
+.tab-section {
     padding: 10px;
 }
 
+
 /* Google Map Styling */
+
 div#map {
     max-width: 100%;
     margin: 20px 30px 20px 30px;
@@ -282,22 +323,26 @@ div#map {
     border: 2px solid #32590B;
     border-radius: 10px;
     padding: 5px;
-   }
+}
+
 
 /* Background photo on contact us Styling */
+
 .fixed-bg {
-    background: linear-gradient( rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10) ), url('../images/Donegal_town.jpg') fixed no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10)), url('../images/donegal_town.jpg') fixed no-repeat;
     -webkit-background-size: cover;
     background-attachment: fixed;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    height: auto;    
+    height: auto;
 }
 
+
 /* Contact Us Styling */
-.heading-contact-us{
+
+.heading-contact-us {
     color: #fff;
     background-color: rgb(113, 140, 15, 0.5);
     padding: 15px;
@@ -310,20 +355,21 @@ div#map {
     border-color: #fff;
 }
 
-.section-contact-details{
+.section-contact-details {
     height: 440px;
     font-family: 'Raleway', sans-serif;
 }
 
-.section-form{
+.section-form {
     height: 530px;
     font-family: 'Raleway', sans-serif;
 }
 
-div.row{
+div.row {
     margin: 0px;
 }
-.contact-details{
+
+.contact-details {
     margin-left: auto;
     margin-right: auto;
     color: #fff;
@@ -334,19 +380,19 @@ div.row{
     border-width: 1px;
     border-style: solid;
     border-color: #fff;
-   }
+}
 
-.contact-icon{
+.contact-icon {
     font-size: 30px;
     text-align: center;
     padding: 22px 0px 10px 0px;
 }
 
-.contact-address{
+.contact-address {
     text-align: center;
 }
 
-.signup-form{
+.signup-form {
     margin-left: auto;
     margin-right: auto;
     color: #fafafa;
@@ -357,62 +403,68 @@ div.row{
     border-width: 1px;
     border-style: solid;
     border-color: #fafafa;
-    }
+}
 
-.signup-form h2{
+.signup-form h2 {
     color: #fafafa;
     margin-bottom: 7px;
-  }
-.text-input{
-  background-color: transparent;
-  color: #fafafa;
-  width: 100%;
-  height: 25px;
-  border: solid 1px #fafafa;
-  border-radius: 2px;
-  margin-bottom: 10px;
-}
-.text-input:hover{
-border-color: #32590B;
-  }
-.form-control{
-  background-color: transparent;
-  color: #fafafa;
-  width: 100%;
- 
-  margin: 3px 0 3px 0;
-  border: solid 1px #fafafa;
-  border-radius: 2px;
-}
-.form-control:hover{
-border-color: #32590B;
-  }
-
-  .join-button{
-  margin-top: 3px;
-  border-radius: 2px;
-  padding: 3px 3px 3px 3px;
-  text-align: center;
-  font-size: 100%;
-  background-color: #718C0F;
-  color: #fafafa;
-  display: inline-block;
-}
-.join-button:hover{
-  background-color: #D9B811;
-  color:#fafafa;
 }
 
-label{
+.text-input {
+    background-color: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    border: solid 1px #fafafa;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.text-input:hover {
+    border-color: #32590B;
+}
+
+.form-control {
+    background-color: transparent;
+    color: #fafafa;
+    width: 100%;
+    margin: 3px 0 3px 0;
+    border: solid 1px #fafafa;
+    border-radius: 2px;
+}
+
+.form-control:hover {
+    border-color: #32590B;
+}
+
+.join-button {
+    margin-top: 3px;
+    border-radius: 2px;
+    padding: 3px 3px 3px 3px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #718C0F;
+    color: #fafafa;
+    display: inline-block;
+}
+
+.join-button:hover {
+    background-color: #D9B811;
+    color: #fafafa;
+}
+
+label {
     margin-bottom: 1px;
 }
 
+
 /* Social Links on Footer Styling */
-#social-links-heading{
+
+#social-links-heading {
     word-spacing: 1px;
 }
 
-.social-links{
+.social-links {
     font-size: 30pt;
     word-spacing: 15pt;
     background-color: #718C0F;
@@ -422,13 +474,14 @@ label{
     text-align: center;
 }
 
-.social-links a{
+.social-links a {
     color: #fafafa;
     margin-left: 5px;
     margin-right: 5px;
     transition: 0.5s;
 }
-.social-links a:hover{
+
+.social-links a:hover {
     color: #D9B811;
     text-decoration: none;
 }

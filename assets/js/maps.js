@@ -154,8 +154,7 @@ window.onload = function () {
 
 function addMarkerInfo() {
     for (var i = 0; i < markersOnMap.length; i++) {
-        var contentString = '<div><h6>' + markersOnMap[i].placeName
-        '</h6></div>';
+        var contentString = '<div><h6>' + markersOnMap[i].placeName + '</h6></div>';
 
         const marker = new google.maps.Marker({
             position: markersOnMap[i].LatLng[0],

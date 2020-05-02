@@ -1,5 +1,5 @@
 # Destination Donegal Town
-<img src="Assets/images/Destination_Donegal_Town_Logo.png" alt="Destination Donegal Town" width="350px">
+<img src="assets/images/destination_donegal_town_logo.png" alt="Destination Donegal Town" width="350px">
 
 # Contents
 1. <a href="#Demo">Demo</a>
@@ -80,11 +80,11 @@ with Calligraffitti font as per the google font website.</p>
 <img src="Wireframes/WireframesLS2.jpg" alt="WireframesLS2" width="410px">
 
 <h3>Wireframes for tablet devices</h3> 
-<img src="Wireframes/WireframesMS1.jpg" alt="WireframesMS1" width="350px">
-<img src="Wireframes/WireframesMS2.jpg" alt="WireframesLM2" width="345px">
+<img src="wireframes/wireframesMS1.jpg" alt="WireframesMS1" width="350px">
+<img src="wireframes/wireframesMS2.jpg" alt="WireframesLM2" width="345px">
 
 <h3>Wireframe for mobile devices</h3> 
-<img src="Wireframes/WireframesMobile.jpg" alt="WireframesMobile" width="350px">
+<img src="wireframes/wireframesMobile.jpg" alt="WireframesMobile" width="350px">
 
 <h1 id="Features">3. Features</h1>
 <h2>Navbar</h2>
@@ -178,7 +178,7 @@ directions on google maps - included
 **Simon and Joan from Cork** wanted the following:<br>
 Top recommendations for hotels, restaurants and bars from locals - included
 
-**Peter from Dublin** wnated the following:<br>
+**Peter from Dublin** wanted the following:<br>
 One page website easy to navigate - included<br>
 budget activities - included<br>
 Pubs with live music - included
@@ -187,7 +187,12 @@ Pubs with live music - included
 I used validator websites to test the following:
 
 * HTML - <a target="_blank" href="https://validator.w3.org/">W3C Html Checker</a> - 32 minor errors found - all corrected
-* JavaScript - <a target="_blank" href="https://codebeautify.org/jsvalidate">Code Beautify Javascript Checker</a>  --- STILL TO DO
+* JavaScript - <a target="_blank" href="https://jshint.com/">JSHint</a> 
+    * **maps.js** 5 warnings - 2 corrected (missing ; and + on line 157), other 3 are minor warnings of which 2 relate to old browsers such as IE 9 or below, seldomly used 
+    * **script.js** 0 warnings
+    * **sendEmail.js** 0 warnings
+
+
 * CSS - <a target="_blank" href="https://jigsaw.w3.org/css-validator/#validate_by_input">W3C CSS Checker</a> - 2 minor errors found - all corrected
 <p>
     <a href="http://jigsaw.w3.org/css-validator/check/referer">
@@ -197,6 +202,9 @@ I used validator websites to test the following:
     </a>
 </p>
 
+When I right clicked inspect, 20 warnings appeared. Minor warnings all related to image of map markers with lettering - "was loaded over HTTPS, but requested an insecure image".
+
+### Responsiveness
 <p>I tested the responsiveness of the website on google chrome by using <a target="_blank" href="http://www.responsinator.com/">www.responsinator.com</a>. I also used the 
 the inspect by right clicking over the website and then going into the toggle device toolbar. I selected the most used devices to also test for 
 responsiveness i.e. Galaxy S5, iPhone 5/SE/6/7/8, iPhone 6/7/8 plus, iPhone X, iPad and iPad Pro.</p>
