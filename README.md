@@ -126,7 +126,7 @@ For each map marker, I have also included informations windows that includes a l
 and directions.
 
 <h2>Contact Form and EmailJS</h2>
-Included a contact form with 5 required fields (first name, last name, mobile number, email and query 
+Included a contact form with 4 required fields (first name, last name, email and query 
 that when completed correctly will send an email to myself and an auto reply email
 to the sender using <a target="_blank" href="https://www.emailjs.com/">EmailJS</a>. If one or more of
 the fields are not completed correctly, website visitor will be advised.
@@ -304,8 +304,8 @@ with the image carousel and read more button
 
 I would like to acknowledge the Code Institute Learning Management System on helping 
 me learn all about HTML, CSS and Javascript. I would also like to thank the team in Tutor Support
-who were always there when I had an issue and lastly to my mentor on advising me on how I can
-improve the website visually and any coding issues I encountered.
+who were always there when I had an issue with lettering the map markers, the slack members who helped me with the errors on JSHint and lastly to my mentor on advising me on how I can
+improve the website visually.
 
 <h1 id="Disclaimer">8. Disclaimer</h1>
 The content and images on this website are for educational purposes only.
